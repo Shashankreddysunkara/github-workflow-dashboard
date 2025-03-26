@@ -91,8 +91,8 @@ export default function Workflows() {
           <TableFooter>
             <TableRow>
               <TablePagination
-                rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
-                colSpan={6} // Update colSpan to match the number of columns in your table
+                rowsPerPageOptions={[10, 15, 20, { label: 'All', value: -1 }]}
+                colSpan={10} // Update colSpan to match the number of columns in your table
                 count={totalWorkflows} // Replace with the total count of workflows
                 rowsPerPage={rowsPerPage}
                 page={page}

@@ -65,8 +65,8 @@ export default function CompletedWorkflows() {
           <TableRow>
             <TableBody></TableBody>
             <TablePagination
-              rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
-              colSpan={5}
+              rowsPerPageOptions={[30, 35, 40, { label: 'All', value: -1 }]}
+              colSpan={30}
               count={completedWorkflows.length}
               rowsPerPage={rowsPerPage}
               page={page}
